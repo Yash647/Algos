@@ -80,16 +80,16 @@ createBST(lb,ub,flag,i)
 print(bst)
 # Output => [7, 4, 9, 2, 6, 9, 14, 1, 3, 5, None, 8, None, 12, None]
 """                                                                7
-                                                                 /        \
-                                                             /                \  
-                                                         /                       \
-                                                     /                              \
-                                                 /                                      \
+                                                                 /    \
+                                                             /            \  
+                                                         /                    \
+                                                     /                            \
+                                                 /                                   \
                                                4                                       9
-                                          /          \                           /                  \
-                                       2             6                      9                    14
-                                    /     \       /       \                 /     \                /      \ 
-                                 1       3      5      None       8     None  12    None
+                                            /     \                                 /     \
+                                          2         6                             9         14
+                                       /     \    /   \                         /   \      /   \ 
+                                      1       3  5     None                    8    None  12    None
 
 
 Total Time Complexity :- From (1), (2), (3) 
